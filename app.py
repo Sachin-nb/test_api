@@ -27,6 +27,7 @@ def get_comments():
         "data": response.json(),
         "status": "success",
         "status_code": 200
+        print("sachin nb");
     })
 
 @app.route('/albums')
